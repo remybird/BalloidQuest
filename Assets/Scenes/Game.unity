@@ -4009,6 +4009,7 @@ GameObject:
   - component: {fileID: 2138845820}
   - component: {fileID: 2138845823}
   - component: {fileID: 2138845822}
+  - component: {fileID: 2138845824}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -4072,7 +4073,7 @@ SpriteRenderer:
   m_SortingLayerID: 1174573691
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 934d672e730984a929235c73ce1742d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bc3885d446bbd400cb89650d0682056e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4114,7 +4115,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -4132,6 +4133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e1c3f036ebe84c188895e81fb4a7b56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 2138845824}
   speedMultiplier: 8
 --- !u!82 &2138845823
 AudioSource:
@@ -4229,3 +4231,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &2138845824
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138845817}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ecd010e1c426d4c7c8a41e142d5f76c1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0

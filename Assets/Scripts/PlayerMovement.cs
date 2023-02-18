@@ -6,6 +6,8 @@ public class PlayerMovement : MonoBehaviour {
   private Rigidbody2D rb2d;
   // private AudioSource audioSrc;
 
+  public Animator animator;
+
   [SerializeField]
   private float speedMultiplier;
 
@@ -15,18 +17,19 @@ public class PlayerMovement : MonoBehaviour {
   }
 
   void FixedUpdate () {
-    rb2d.velocity = new Vector2(Mathf.Lerp(0, Input.GetAxis("Horizontal") * speedMultiplier, 0.8f),
-                                Mathf.Lerp(0, Input.GetAxis("Vertical") * speedMultiplier, 0.8f));
+    var horiz = Input.GetAxis("Horizontal");
+    var vert = Input.GetAxis("Vertical");
+    rb2d.velocity = new Vector2(horiz * speedMultiplier * 0.8f,
+                                vert * speedMultiplier * 0.8f);
   }
 
-  // void Update()
-  // {
-  //     if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
-  //     {
-  //         if (!audioSrc.isPlaying)
-  //         {
-  //             audioSrc.Play();
-  //         }
-  //     }
-  // }
+  void Update () {
+    animator.SetFloat("VX", Input.GetAxis("Horizontal"));
+    animator.SetFloat("VY", Input.GetAxis("Vertical"));
+    // if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0) {
+    //   if (!audioSrc.isPlaying) {
+    //     audioSrc.Play();
+    //   }
+    // }
+  }
 }

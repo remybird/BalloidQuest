@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: 89648a91bcbb845ed8899b3e041e4d05
-DefaultImporter:
+ScriptedImporter:
+  internalIDToNameTable: []
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1ec1c730553244fca1277bf4112f009f, type: 3}
+  importFlags: 3
+  pixelsPerUnit: 100
+  pivot: {x: 0.5, y: 0.5}
+  layersImporting:
+  - overrides: 0
+    pixelsPerUnit: 8
+    pivot: {x: 0.5, y: 0.5}
+    layer: Sprite Sheet
+  animationsImporting:
+  - overrides: 0
+    pixelsPerUnit: 8
+    pivot: {x: 0.5, y: 0.5}
+    tag: Walk Down
+    loop: 1
+  tilesetImporting: []
