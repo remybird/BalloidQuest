@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5b0973f898bad4d4ba0fecb9abaccfc6
+guid: d27aa6d45987146a5a7e8f586b3a4e18
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,35 +101,11 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: walk-left_0
+      name: swordsman-walk-foward_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0540c020bb33e4cc794c1e68a669f886
-      internalID: -2120280270
+      spriteID: 066caeb066b4e400bb696f9005194312
+      internalID: 456338977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk-left_1
+      name: swordsman-walk-foward_1
       rect:
         serializedVersion: 2
         x: 16
@@ -164,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2278726228e4b4b5db802bc8a7e5babe
-      internalID: 1669764571
+      spriteID: 9013f6ad755444939af7ec84426c50f6
+      internalID: 1351857875
       vertices: []
       indices: 
       edges: []
@@ -181,8 +157,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      walk-left_0: -2120280270
-      walk-left_1: 1669764571
+      swordsman-walk-foward_0: 456338977
+      swordsman-walk-foward_1: 1351857875
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
